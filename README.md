@@ -106,24 +106,6 @@ We observed initial signs of overfitting (training loss ↓, validation loss ↑
 - The multiclass model proves that **treatment types can be predicted with nearly 80% accuracy**, assuming exclusive therapy application.
 - Strong predictors include **tumor size**, **nodal involvement**, **hormonal receptor status**, and **Nottingham index** — all aligned with clinical reasoning.
 
-## 📂 Project Structure
-
-```
-├── data/                          # Raw and processed data
-├── models/                        # Saved model weights (optional)
-├── outputs/
-│   └── figures/
-│       ├── nn_learning_curve_*.png
-│       ├── confusion_matrix_*.png
-│       └── correlation/*.png      # Feature-treatment plots
-├── scripts/
-│   └── train_model.py             # PyTorch training script
-│   └── feature_importance.py      # Feature ranking
-├── notebooks/
-│   └── EDA and experiments.ipynb  # Jupyter notebooks
-└── README.md
-```
-
 ---
 
 ## 📌 Future Work
